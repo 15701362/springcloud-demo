@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GitDemo {
 
-    @GetMapping("/demo")
-    public String demo(){
+
+    @GetMapping("/demo1")
+    public String demo1(){
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
+        System.out.print("hhehe");
         return "demo";
     }
 
