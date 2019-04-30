@@ -27,4 +27,14 @@ public class GitDemo {
     }
 
 
+    /**
+     *
+     * @return demo2
+     */
+    @GetMapping("/demo3")
+    public String demo3(){
+        return "demo3";
+    }
+
+
 }
